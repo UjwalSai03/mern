@@ -1,0 +1,93 @@
+/* .navbar{
+  height: 100px;
+  width: 100%;
+  color: white;
+  background-color: rgb(76, 86, 94);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.left{
+  padding-left: 20px;
+  font-weight: 300;
+}
+.right{
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  >h5{
+    padding-right: 7px;
+  }
+}
+.container{
+  color: white;
+  width: 100wh;
+  height: 100vh;
+  background-color: rgb(44, 141, 180);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+button{
+  background-color: azure;
+  color: white;
+}
+Link{
+  color: white;
+} */
+
+
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  color: white;
+  padding: 10px 20px;
+}
+
+.navbar h1 {
+  margin: 0;
+}
+
+.right button {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 15px;
+  margin-left: 20px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.right button:hover {
+  background-color: #0056b3;
+}
+
+BrowserRouter {
+  width: 100%;
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+Routes {
+  margin-top: 20px;
+}
+
+Route {
+  margin-bottom: 20px;
+}
+

@@ -1,0 +1,133 @@
+/* .container{
+    width: 600px;
+    height: 500px;
+    background-color: rgb(127, 172, 214);
+    border: 2px solid black;
+    margin-bottom: 50px;
+}
+.profiles{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+li{
+    color: white;
+}
+img{
+    width: 100px;
+    height: 100px;
+}
+.heading-1{
+    color: rgb(39, 68, 85);
+}
+/* h1, h4{
+    margin-left: 50px;
+} */
+/* .navigation{
+    width: 100%;
+    height: 100px;
+    background-color:  rgb(49, 80, 107);
+    color: white;
+    >button{
+        background-color: black;
+        color: white;
+    }
+} */ */
+
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+  }
+  
+  .navigation {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .navigation button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 15px;
+    margin: 0 5px;
+    cursor: pointer;
+  }
+  
+  .heading-1 {
+    text-align: center;
+    color: #333;
+  }
+  
+  .heading-2 {
+    text-align: center;
+    color: #777;
+    margin-bottom: 20px;
+  }
+  
+  .profiles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .container {
+    width: 300px;
+    margin: 20px;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .container img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+  
+  .view-profile {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 3px;
+  }
+  
+  .view-profile:hover {
+    background-color: #0056b3;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  ul li {
+    margin-bottom: 5px;
+  }
+  
+  .link {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    text-decoration: none;
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    border-radius: 3px;
+  }
+  
+  .link:hover {
+    background-color: #0056b3;
+  }
+  

@@ -1,0 +1,48 @@
+.myProfile{
+    margin-left: 50px;
+}
+.body{
+    width: 700px;
+    height: 500px;
+    background-color: rgb(41, 132, 162);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    >h1, >h3, >div{
+        color: white;
+    }
+}
+.image{
+    width: 100px;
+    height: 100px;
+}
+.review-box{
+    border: 1px solid black;
+    >h2,>input, >button{
+        margin-left: 20px;
+    }
+}
+.bottom{
+    margin-top: 10px;
+    border: 1px solid black;
+    >input{
+        width: 200px;
+    }
+}
+.review-box{
+    width: 200px;
+    background-color: aliceblue;
+    display: flex;
+    margin-left: 10px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+}
+.points{
+    color: black;
+}
+h3{
+    color: rgb(48, 108, 145) ;
+}

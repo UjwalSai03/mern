@@ -1,0 +1,143 @@
+/* .main{
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    width: 800px;
+    height: 600px;
+    background-color: rgb(111, 160, 204);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.profile-github, .profile-grid, .repo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.btn{
+    width: 100px;
+    height: 30px;
+}
+.text{
+    color: black;
+}
+.link{
+    color: black;
+} */
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa; /* Light grey background */
+  }
+  section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .navbar {
+    background-color: #343a40; /* Dark navbar background color */
+    color: white;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .navbar h1 {
+    margin: 0;
+  }
+  
+  .navbar ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    margin: 0 10px;
+    font-size: 16px;
+    color: white;
+  }
+  
+  .container {
+    padding: 20px;
+  }
+  
+  .container a {
+    text-decoration: none;
+    color: #007bff; /* Blue link color */
+  }
+  
+  .profile-grid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+  }
+  
+  .profile-grid div {
+    text-align: center;
+  }
+  
+  .profile-grid img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+  
+  .profile-github {
+    margin-top: 20px;
+  }
+  
+  .text-primary {
+    color: #007bff;
+  }
+  
+  .repo {
+    background-color: #fff;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .btn-primary {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3;
+  }
+  
